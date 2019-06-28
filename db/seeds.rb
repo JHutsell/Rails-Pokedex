@@ -5,3 +5,9 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+Pokemon.destroy_all
+pika = Pokemon.create({name: "Pikachu", weight: 12, description: "Small electric mouse. Everyone's favorite. ⚡️"})
+char = Pokemon.create({name: "Charmander", weight: 16, description: "Fire lizard 🔥"})
+squirt = Pokemon.create({name: "Squirtle", weight: 17, description: "Water turtle 💦"})
+bulb = Pokemon.create({name: "Bulbasaur", weight: 29, description: "Leafy plant thing 🍃"})

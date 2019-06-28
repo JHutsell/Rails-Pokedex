@@ -1,0 +1,9 @@
+<h1><%= @pokemon.name %></h1>
+
+<p>Weight: <%= @pokemon.weight %> lbs.</p>
+
+<p>Description: <%= @pokemon.description %></p>
+
+<p><%= link_to "Return to list", pokemons_path %></p>
+<p><%= link_to "Edit this Pokémon 🤔", edit_pokemon_path(@pokemon) %></p>
+<p><%= button_to "Delete this Pokémon 😵", pokemon_path(@pokemon), method: :delete %><p>

@@ -1,0 +1,11 @@
+<h1>Edit a Pokémon</h1>
+
+
+<%= form_for @pokemon do |f| %>
+    <%= f.label :weight %>
+    <%= f.text_field :weight %>
+    <%= f.label :description %>
+    <%= f.text_field :description %>
+    
+    <%= f.submit "Change me why don't you 🥺" %>
+<% end %>
